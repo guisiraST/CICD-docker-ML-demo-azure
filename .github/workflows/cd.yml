@@ -1,7 +1,12 @@
 name: Continuous Deployment
 on:
-  pull_request_review:
-    types: [submitted]
+  workflow_run:
+    workflows: ["Continuous Integration"]
+    types:
+      - completed
+    branches: [ "main" ]
+
+  workflow_dispatch:
 
 env:
   AZURE_CONTAINER_REGISTRY: cicddemoazure
