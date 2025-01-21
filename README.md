@@ -1,1 +1,1 @@
-# CICD-docker-ML-demo-azure
+# CICD_docker_ML_demo
