@@ -35,7 +35,7 @@ class PredictDrugInput(BaseModel):
 # Define a GET endpoint
 @router.get("/")
 def read_root():
-    return {"message": "Hello, welcome to the demo CICD for ML model deployment in Azure 🚀"}
+    return {"message": "Hello, welcome to the demo CICD for ML model deployment in Azure 🚀 test with P_ming"}
 
 @router.get("/get_perams")
 def get_perams():

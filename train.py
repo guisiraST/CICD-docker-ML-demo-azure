@@ -21,7 +21,7 @@ METRICS_FILE = "Results/metrics.txt"
 RESULTS_IMAGE = "Results/model_results.png"
 TEST_SIZE = 0.3
 RANDOM_STATE = 42
-N_ESTIMATORS = 30
+N_ESTIMATORS = 40
 
 def ensure_directories():
     """Ensure necessary directories exist."""
