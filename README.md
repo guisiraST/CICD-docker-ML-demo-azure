@@ -9,7 +9,7 @@
 
 ### Guild deploy docker to huggingface space
 - https://huggingface.co/blog/HemanthSai7/deploy-applications-on-huggingface-spaces
+- https://www.datacamp.com/tutorial/ci-cd-for-machine-learning
 
 ### Guild deploy docker with github action to azure
 - https://www.youtube.com/watch?v=yjbzWq7bvNc
-- https://www.datacamp.com/tutorial/ci-cd-for-machine-learning
